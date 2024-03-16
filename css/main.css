@@ -1,0 +1,125 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+/*=================typography------------------*/
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #777;
+    text-align: center;
+}
+h1, h2, h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    font-size: 32px;
+    line-height: 32px;
+    color: #000;
+}
+
+/*=================layout------------------*/
+.container  {
+    width: 1110px;
+    margin:0 auto;
+}
+section {
+    padding:50px 0
+}
+
+
+/*=================header------------------*/
+nav{
+    background: #00FF75;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+nav div{
+    display: flex;
+    justify-content: space-between;
+}
+nav div ul {
+    display: flex;
+    align-items: center;
+}
+.main-menu li{
+    margin-right: 40px;
+}
+.main-menu li a{
+    color: #ffff;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.social-menu li{
+    margin-left: 20px;
+}
+.social-menu li a{
+    width: 30px;
+    height: 30px;
+    display: block;
+    background: rgba(0,0,0,0.2);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #ffff;
+    font-size: 14px;
+}
+header h1{
+    font-size: 42px;
+    line-height: 42px;
+    color: #00FF75;
+    
+}
+header h2{
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 20px;
+    color:#00FF75;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+/*=================features------------------*/
+.feature{
+    background: #00FF75;
+    padding:0;
+}
+.feature-list{
+    background: url(../images/untitled.jpg) no-repeat center top ;
+    display: flex;
+}
+
+.feature-list  .item{
+    height: 300px;
+    flex: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #ffff;
+}
+.feature-list  .item:first-child{
+    border-left: 1px solid #fff;
+
+}
+.feature-list  .item a{
+    text-align: center;
+    font-size: 20px;
+    color:#fff;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.feature-list  .item a h3{
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 20px;
+}
